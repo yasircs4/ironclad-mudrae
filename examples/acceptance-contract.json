@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "work_order_id": "EXAMPLE-ONLY",
+  "required_environment": "example",
+  "required_reports": [
+    "REPORT.md",
+    "REQUIREMENTS.md",
+    "VALIDATION.md",
+    "RISKS.md",
+    "evidence/INDEX.md"
+  ],
+  "criteria": [
+    {
+      "id": "EX-01",
+      "gate": "example-documentation",
+      "required_evidence": [
+        "source_reference"
+      ]
+    }
+  ]
+}

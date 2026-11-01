@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "work_order_id": "EXAMPLE-ONLY",
+  "candidate": {
+    "id": "example-only",
+    "source_revision": "synthetic-documentation-fixture",
+    "environment": "example"
+  },
+  "criteria": [
+    {
+      "id": "EX-01",
+      "status": "PASS",
+      "evidence_ids": [
+        "EX-DOC-01"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EX-DOC-01",
+      "kind": "source_reference",
+      "path": "evidence/example-source.txt",
+      "sha256": "f9aaa53ff0aa1fc818a889fec1167ef3a929538f3415a77ff206e97b900e9a03",
+      "candidate_id": "example-only",
+      "environment": "example",
+      "observed_at": "2026-11-01T21:21:45.516676+00:00",
+      "description": "Synthetic explanatory text, not application proof."
+    }
+  ]
+}

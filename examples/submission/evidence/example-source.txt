@@ -1,0 +1,2 @@
+SYNTHETIC DOCUMENTATION EXAMPLE.
+This file explains a handback completeness check. It reports no application implementation, automated test execution, device result, provider delivery or authorized release.
